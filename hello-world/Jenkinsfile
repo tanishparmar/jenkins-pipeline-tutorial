@@ -4,7 +4,7 @@ pipeline {
         stage('Static Analysis') {
             steps {
                 echo 'Run the static analysis to the code' 
-                echo 'Changes by Tanish 1' 
+                echo 'Changes by Tanish Parmar' 
             }
         }
         stage('Compile') {
@@ -20,7 +20,7 @@ pipeline {
         stage('Run Unit Tests') {
             steps {
                 echo 'Run unit tests from the source code' 
-                echo 'Changes by Tanish 2'
+                echo 'Changes by Tanish Parmar'
             }
         }
         stage('Run Integration Tests') {
@@ -31,7 +31,7 @@ pipeline {
         stage('Publish Artifacts') {
             steps {
                 echo 'Save the assemblies generated from the compilation' 
-                echo 'Changes by Tanish 3'
+                echo 'Changes by Tanish Parmar'
             }
         }
     }
